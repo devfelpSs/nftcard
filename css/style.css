@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-family: 'Outfit';
+    background: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 97vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 565px;
+    align-items: center;
+    align-content: center;
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.nft-image {
+    background: url("../images/image-equilibrium.jpg") center/cover;
+    display: flex;
+    width: 299px;
+    height: 285px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: absolute; /*Posição absoluta em relação ao elemento pai*/
+}
+
+.nft-view {
+    background-color: rgba(0, 255, 247, 0.5);
+    background-position: center;
+    display: flex;
+    width: 299px;
+    height: 285px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 20px;
+    opacity: 0;
+    transition: all 0.1s;
+    position: relative; /*Posição relativa em relação ao elemento pai*/
+    cursor: pointer;
+}
+
+.nft-view:hover {
+    opacity: 1;
+}
+.nft-view img {
+    width: 47px;
+    height: 47px;
+    align-self: center;
+    margin: 0 auto;
+
+}
+
+
+.title {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+.title:hover {
+    color:hsl(178, 100%, 50%);
+    transition: 0.3s;
+	cursor:pointer;
+}
+
+.bottomText {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.description {
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    padding-right: 130px;
+    font-weight: bold;
+}
+
+.daysleft {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+
+.details {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-left: 15px;
+    margin-right: 18px;
+}
+
+.author {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    color: hsl(215, 51%, 70%);
+    font-size: 1rem;
+    margin-left: 25px;
+}
+
+hr {
+	
+    border: 0;
+    border-top: 1px solid hsl(238deg 20% 42% / 73%);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.avt {
+    display: flex;
+    width: 40px;
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.txtauthor {
+    padding-left: 18px;
+}
+
+.tst {
+    color: white;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+	cursor:pointer;
+    transition: 0.3s;
+}
+
+.teste{
+    padding-right: 6px;
+}
+
+.clock {
+    padding-right: 6px;
+}
+
+.attribution {
+    padding-top: 5rem;
+    color: hsl(215, 51%, 70%);
+}
+
+a {
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
